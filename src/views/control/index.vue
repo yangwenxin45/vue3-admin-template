@@ -8,6 +8,14 @@
         <el-button type="warning">Warning</el-button>
         <el-button type="danger">Danger</el-button>
     </el-row>
+    <div>
+        <el-icon>
+            <i-ep-Edit />
+        </el-icon>
+        <!-- 或者独立使用它，不从父级获取属性 -->
+        <IEpEdit />
+        <el-icon><i-ep-Plus /></el-icon>
+    </div>
 </template>
 
 <script setup>
