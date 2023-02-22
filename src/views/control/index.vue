@@ -16,10 +16,13 @@
         <IEpEdit />
         <el-icon><i-ep-Plus /></el-icon>
     </div>
+    <div>
+        <svg-icon :icon-name="home"></svg-icon>
+    </div>
 </template>
 
 <script setup>
-
+const home = "home";
 </script>
 
 <style scoped></style>
